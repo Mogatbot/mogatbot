@@ -1,0 +1,188 @@
+{
+ "name":"MogatBot",
+ "description":"This Bot is under Gianic Bot",
+ "logo":"https://telegra.ph//file/25cc6007b2e265d075155.jpg",
+ "keywords":[
+  "telegram",
+  "userbot",
+  "plugin",
+  "MogatBot",
+  "modular",
+  "productivity",
+ ],
+ "repository":"https://github.com/Mogatbot/mogatbot",
+ "website name":"https://github.com/Mogatbot/mogatbot",
+ "success_url":"https://t.me/Gianicbotsupport",
+   "env": {
+    "ENV": {
+      "description": "Set this to ANYTHING will enable heroku.",
+      "value": "ANYTHING"
+    },
+    "ALIVE_NAME": {
+      "description": "Fill your Full name. By default it is Mogat User",
+      "value": "Mogat",
+      "required": false
+    },
+    "ALIVE_MSG": {
+      "description": "Set Custom Alive Message When entering .alive Or .MogatBot  Command.",
+      "value": "MogatBot is Online",
+      "required": false
+    },
+    "ABUSE": {
+      "description": " Set ON or OFF",
+      "value": "",
+      "required" :true
+    },
+    "EXTRA_PLUGIN": {
+      "description": "Set ON or OFF",
+      "value": "",
+      "required" :true
+    },
+    "SPAM": {
+      "description": "Set ON or OFF",
+      "value": "",
+      "required" :true
+    },
+    "ASSISTANT": {
+      "description": "Set ON or OFF",
+      "value": "",
+      "required" :true
+    },
+    "YOUR_GROUP": {
+      "description": "Set Ur Group Username",
+      "value": "@Gianicbotsupport",
+      "required": false
+    },
+    "YOUR_CHANNEL": {
+      "description": "Set Ur Channel Username",
+      "value": "@Gianicbotsupport
+      "required": false
+    },
+    "BOY_OR_GIRL": {
+      "description": "Set Boy Or Girl",
+      "value": "Boy",
+      "required": false
+    },
+    "AWAKE_PIC": {
+      "description": "Put here any telegraph media link for awake pic in .awake Or .bot command.",
+      "value": "",
+      "required": false
+    },
+    "OP_PIC": {
+      "description": "Put here any telegraph media link for OP pic in .op command.",
+      "value": "",
+      "required": false
+    },
+    "PING_PIC": {
+      "description": "Put here any telegraph media link for PING pic in .ping command.",
+      "value": "",
+      "required": false
+    },
+    "ALIVE_PIC": {
+      "description": "Put here any telegraph media link for alive pic in .alive.",
+      "value": "",
+      "required": false
+    },
+    "ALIVE_EMOJI": {
+      "description": "Put here any emoji. Which Will be Show When U Do .alive.",
+      "value": "",
+      "required": false
+    },
+    "BIO_MSG": {
+      "description": "Put Your Telegram Bio Here Required For Auto Bio.",
+      "value": "𝙸 𝚊𝚖 𝙻𝚎𝚐𝚎𝚗𝚍.",
+      "required": true
+    },
+    "PM_PIC": {
+      "description": "put here any telegraph media link for custom pmpermit pic.",
+      "value": "",
+      "required": false
+    },
+    "PM_MSG": {
+      "description": "Enter Your custom pm permit msg.",
+      "value": "Hello Sir/Madam I am personal bot for my master.He/She is busy now so, message him/her after.Thank you",
+      "required": false
+    },
+    "MAX_FLOOD_IN_PM": {
+      "description": "Now U Can Set Custom Flood In DM / PM by default it is 5",
+      "value": "5",
+      "required": true
+    },
+    "LOGGER_ID": {
+      "description": "Create a private channel. And get it's id from @missrose_bot and paste here. Value should start with -100",
+      "value": "",
+      "required": true
+    },
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban.",
+      "value": ""
+    },
+    "SUDO_USERS": {
+      "description": "Enter your friends user id to to give him bot full access",
+      "value": "",
+      "required": false
+    },
+    "SUDO_COMMAND_HAND_LER": {
+      "description": "Please enter sudo user command handler",
+      "value": ",",
+      "required": false
+    },
+    "COMMAND_HAND_LER": {
+      "description": "U can Change Ur command Handler By Default it is (.)",
+      "value": ".",
+      "required": true
+      },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Putting Others Value May result In Account Ban.",
+      "value": ""
+    },
+    "PLUGIN_CHANNEL": {
+      "description": "Copy Group Id And paste here To Get Plugin Channel ID copy and paste here",
+      "value": ""
+    }, 
+    "Mogat_STRING": {
+      "description": "Get this value by running @stringmakebot",
+      "value": ""
+    },
+    "HEROKU_API_KEY": {
+      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
+      "value": "",
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "description": "The Value of App Name you filled in right on top.Required for updater to work.",
+      "value": "",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn on inline Mode on bot settings. Get it.",
+      "value": ""
+    },
+    "BOT_USERNAME": {
+      "description": "Needed for inline buttons maker. Make a bot at @BotFather and copy the username of your bot.",
+      "value": ""
+    },
+    "NO_OF_BUTTONS": {
+      "description": " Set The Amount Of Buttons Displayed In Mogat Command default 7",
+      "value": "7",
+      "required": true
+    },
+    "NO_OF_COLUMNS": {
+      "description": "Set The Amount Of Rows You Want To Displayed In Mogat Command default 2",
+      "value": "2",
+      "required": true
+    },
+    "EMOJI_IN_HELP1": {
+      "description": "Set The emojies You Want to Add In Help Command!!",
+      "value": "",
+      "required": false
+    },
+    "EMOJI_IN_HELP2": {
+      "description": "Set The emojies You Want to Add In Help Command!!",
+      "value": "",
+      "required": false
+    },
+    "PM_DATA": {
+      "description": "Type DISABLE if you want to disable pm protection... ",
+      "value": "ENABLE",
+      "required": true
