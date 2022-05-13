@@ -1,2 +1,2 @@
 # mogatbot
-Mogatbot
+website: https://github.com/Mogatbot
