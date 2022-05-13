@@ -116,6 +116,7 @@
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban.",
       "value": ""
+     "required": true
     },
     "SUDO_USERS": {
       "description": "Enter your friends user id to to give him bot full access",
@@ -135,14 +136,17 @@
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Putting Others Value May result In Account Ban.",
       "value": ""
+     'required": true
     },
     "PLUGIN_CHANNEL": {
       "description": "Copy Group Id And paste here To Get Plugin Channel ID copy and paste here",
       "value": ""
+     "required": true
     }, 
     "Mogat_STRING": {
       "description": "Get this value by running @stringmakebot",
       "value": ""
+     "required": true
     },
     "HEROKU_API_KEY": {
       "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
@@ -157,10 +161,12 @@
     "BOT_TOKEN": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn on inline Mode on bot settings. Get it.",
       "value": ""
+     "required": true
     },
     "BOT_USERNAME": {
       "description": "Needed for inline buttons maker. Make a bot at @BotFather and copy the username of your bot.",
       "value": ""
+     "required": true
     },
     "NO_OF_BUTTONS": {
       "description": " Set The Amount Of Buttons Displayed In Mogat Command default 7",
