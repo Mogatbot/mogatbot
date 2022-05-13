@@ -55,7 +55,7 @@
     },
     "YOUR_CHANNEL": {
       "description": "Set Ur Channel Username",
-      "value": "@Gianicbotsupport
+      "value": "@Gianicbotsupport"
       "required": false
     },
     "BOY_OR_GIRL": {
